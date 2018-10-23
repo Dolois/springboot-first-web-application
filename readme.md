@@ -20,11 +20,11 @@
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
 
-
+                                           1     2     3
                                         |-----|-----|-----|
-                                        |     |     |     |
-                                        |----:|:----|:---:|
-                                        |     |     |     |
+                                     A  |  x  |     |     |
                                         |-----|-----|-----|
-                                        |     |     |     |
+                                     B  |     |  x  |     |
+                                        |-----|-----|-----|
+                                     C  |     |     |  x  |
                                         |-----|-----|-----|
