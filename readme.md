@@ -39,12 +39,12 @@
 *  application.properties- Ceci est généralement utilisé pour configurer les infrastructures dans Spring Boot.<br>
    Dans cet exemple, nous allons configurer notre résolveur de vues dans application.properties.
 
-#### Créer un projet de démarrage : 
+### Créer un projet de démarrage : 
 <b>Spring Starter Project</b> :  spring-boot-first-web-application-1<br>
 <b>groupe</b> :                  co.simplon.springboot<br>
 <b>artifacts</b> :               student-services<br>
 
-#### Choisissez les dépendances suivantes :
+### Choisissez les dépendances suivantes :
 *  Web
 *  Actuator
 *  DevTools
