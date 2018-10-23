@@ -20,6 +20,5 @@
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
 
-[^exemple]: ici.
+[^footnote]: Here is the *text* of the **footnote**.
 
-Input `***` or `---` on a blank line and press `return` will draw a horizontal line.
