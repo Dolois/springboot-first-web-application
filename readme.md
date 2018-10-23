@@ -12,7 +12,7 @@
 - [x] ajouter des fonctionnalités pour afficher une liste de tâches
 - [x] connecter automatiquement des composants à l'aide de Spring Framework
 
-### Les outils dont vous aurez besoin
+### Les outils que nous avons utilisés
 - [x] Maven 3.0+ est votre outil de construction
 - [x] Votre IDE préféré. Nous utilisons Eclipse.
 - [x] JDK 1.8+
