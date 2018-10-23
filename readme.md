@@ -19,3 +19,5 @@
 
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
+
+[^exemple]: ici
