@@ -22,13 +22,13 @@
                                         
 #### Un bref aperçu de tous les fichiers
 
-*  TodoService : Contient la logique métier.<br>
+*  TodoService : contient la logique métier.<br>
    TodoService : contient une méthode de service permettant de récupérer une liste de tâches.
 *  LoginService : a une validation codée en dur simple pour l'ID utilisateur et le mot de passe.
 
 *  login.jsp, welcome.jsp, list-todos.jsp : Les noms expliquent clairement le contenu de chacune de ces vues.
 
-*  LoginController, TodoController : Agissent en tant que contrôleurs dans le tableau de bord du MVC.<br>                                      LoginController a un peu de flux.
+*  LoginController et TodoController : agissent en tant que contrôleurs dans le tableau de bord du MVC.<br>                              LoginController a un peu de flux.
    
    Si l'utilisateur entre une combinaison valide d'identifiant et de mot de passe, il sera redirigé vers la page d'accueil.
    Sinon, la page de connexion sera affichée avec le message d'erreur.
