@@ -21,3 +21,10 @@
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
 
 
+                                        |-----|-----|-----|
+                                        |     |     |     |
+                                        |-----|-----|-----|
+                                        |     |     |     |
+                                        |-----|-----|-----|
+                                        |     |     |     |
+                                        |-----|-----|-----|
