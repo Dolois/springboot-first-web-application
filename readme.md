@@ -19,18 +19,8 @@
 
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
-
-                                           1     2     3
-                                        |-----|-----|-----|
-                                     A  |  x  |     |     |
-                                        |-----|-----|-----|
-                                     B  |     |  x  |     |
-                                        |-----|-----|-----|
-                                     C  |     |     |  x  |
-                                        |-----|-----|-----|
                                         
-                                        
- #### Un bref aperçu de tous les fichiers
+#### Un bref aperçu de tous les fichiers
 
 *  TodoService : Contient la logique métier.
    TodoService : contient une méthode de service permettant de récupérer une liste de tâches.
