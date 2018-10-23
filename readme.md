@@ -1,4 +1,4 @@
-### Création d'une application Web avec Spring Boot avec JSP
+## Création d'une application Web avec Spring Boot avec JSP
 
 #### Nous allons développer une application simple avec une fonctionnalité de connexion 
 #### ainsi que la fonctionnalité permettant d'afficher une liste de tâches.
