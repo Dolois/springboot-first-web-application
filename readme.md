@@ -28,3 +28,19 @@
                                         |-----|-----|-----|
                                      C  |     |     |  x  |
                                         |-----|-----|-----|
+                                        
+                                        
+ #### Un bref aperçu de tous les fichiers
+
+*  TodoService : Contient la logique métier. 
+*  LoginService a une validation codée en dur simple pour l'ID utilisateur et le mot de passe. 
+*  TodoService contient une méthode de service permettant de récupérer une liste de tâches.
+*  login.jsp, welcome.jsp, list-todos.jsp : Les noms expliquent clairement le contenu de chacune de ces vues.
+*  LoginController, TodoController : Agissent en tant que contrôleurs dans le tableau de bord du MVC.
+    LoginController a un peu de flux.
+   Si l'utilisateur entre une combinaison valide d'identifiant et de mot de passe, il sera redirigé vers la page d'accueil.
+   Sinon, la page de connexion sera affichée avec le message d'erreur.
+*  pom.xml- Les dépendances importantes sont Spring Boot Starter Web et tomcat-embed-jasper.
+   Nous en reparlerons plus tard.
+*  application.properties- Ceci est généralement utilisé pour configurer les infrastructures dans Spring Boot.
+   Dans cet exemple, nous allons configurer notre résolveur de vues dans application.properties.
