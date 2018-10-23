@@ -20,3 +20,4 @@
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
 
+![Touch Bar Shot 2017-02-28 at 00.40.32](img/Touch Bar Shot 2017-02-28 at 00.40.32.png)
