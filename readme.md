@@ -20,3 +20,6 @@
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
 
+| Default | Left  | Right | Center |
+| ------- | :---- | ----: | :----: |
+| cell1   | cell2 | cell3 | cell4  |
