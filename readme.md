@@ -66,7 +66,7 @@ Nous voulons utiliser JSP comme vue. Le conteneur de servlet intégré par défa
 
 ### Configuration d'un résolveur de vues
 Nos fichiers jsp sont dans /WEB-INF/jsp <br>
-Nous devons configurer le résolveur de vues avec le préfixe et le suffixe.<br><br>
+Nous devons configurer le résolveur de vues avec le préfixe et le suffixe.<br>
 
 #### dans application.properties
 spring.mvc.view.prefix=/WEB-INF/jsp/<br>
