@@ -5,24 +5,18 @@
 #### Nous suivrons le modèle MVC en utilisant JSP comme vue.
 
 #### Nous avons mis en application :
-  * amorcer un projet simple avec Spring Initializr ?
-  * initialiser une application Web de base pour Spring Boot ?
-  * ajouter une application JSP pour Web ?
-  * construire une fonctionnalité de connexion de base ?
-  * ajouter des fonctionnalités pour afficher une liste de tâches ?
-  * connecter automatiquement des composants à l'aide de Spring Framework ?
+- [x] amorcer un projet simple avec Spring Initializer
+- [x] initialiser une application Web de base pour Spring Boot
+- [x] ajouter une application JSP pour Web
+- [x] construire une fonctionnalité de connexion de base
+- [x] ajouter des fonctionnalités pour afficher une liste de tâches
+- [x] connecter automatiquement des composants à l'aide de Spring Framework
 
 ### Les outils dont vous aurez besoin
-  * Maven 3.0+ est votre outil de construction
-  * Votre IDE préféré. Nous utilisons Eclipse.
-  * JDK 1.8+
+- [x] Maven 3.0+ est votre outil de construction
+- [x] Votre IDE préféré. Nous utilisons Eclipse.
+- [x] JDK 1.8+
 
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
-
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
-- [x] completed
 
