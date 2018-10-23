@@ -69,6 +69,6 @@ Nos fichiers jsp sont dans /WEB-INF/jsp <br>
 Nous devons configurer le résolveur de vues avec le préfixe et le suffixe.<br><br>
 
 #### dans application.properties
-spring.mvc.view.prefix=/WEB-INF/jsp/
-spring.mvc.view.suffix=.jsp
+spring.mvc.view.prefix=/WEB-INF/jsp/<br>
+spring.mvc.view.suffix=.jsp<br>
 
