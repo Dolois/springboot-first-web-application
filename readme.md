@@ -20,4 +20,6 @@
 ### Vue d'ensemble de l'application Web
 #### Nous allons construire une liste de tâches (non formatée) avec la fonctionnalité de connexion de base.
 
-[^exemple]: ici
+[^exemple]: ici.
+
+Input `***` or `---` on a blank line and press `return` will draw a horizontal line.
