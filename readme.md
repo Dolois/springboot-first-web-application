@@ -40,9 +40,9 @@
    Dans cet exemple, nous allons configurer notre résolveur de vues dans application.properties.
 
 #### Créer un projet de démarrage : 
-<b>Spring Starter Project</b> :  spring-boot-first-web-application-1
-<b>groupe</b> :                  co.simplon.springboot
-<b>artifacts</b> :               student-services
+<b>Spring Starter Project</b> :  spring-boot-first-web-application-1<br>
+<b>groupe</b> :                  co.simplon.springboot<br>
+<b>artifacts</b> :               student-services<br>
 
 #### Choisissez les dépendances suivantes :
 *  Web
