@@ -28,13 +28,37 @@
 
 *  login.jsp, welcome.jsp, list-todos.jsp : Les noms expliquent clairement le contenu de chacune de ces vues.
 
-*  LoginController et TodoController : agissent en tant que contrôleurs dans le tableau de bord du MVC.<br>                              LoginController a un peu de flux.
+*  LoginController et TodoController : agissent en tant que contrôleurs dans le tableau de bord du MVC.<br>                                LoginController a un peu de flux.
    
-   Si l'utilisateur entre une combinaison valide d'identifiant et de mot de passe, il sera redirigé vers la page d'accueil.
+   Si l'utilisateur entre une combinaison valide d'identifiant et de mot de passe, il sera redirigé vers la page d'accueil.<br>
    Sinon, la page de connexion sera affichée avec le message d'erreur.
 
-*  pom.xml- Les dépendances importantes sont Spring Boot Starter Web et tomcat-embed-jasper.
+*  pom.xml- Les dépendances importantes sont Spring Boot Starter Web et tomcat-embed-jasper.<br>
    Nous en reparlerons plus tard.
 
-*  application.properties- Ceci est généralement utilisé pour configurer les infrastructures dans Spring Boot.
+*  application.properties- Ceci est généralement utilisé pour configurer les infrastructures dans Spring Boot.<br>
    Dans cet exemple, nous allons configurer notre résolveur de vues dans application.properties.
+
+### Dépendances du projet
+Spring Boot Starter Web fournit toutes les dépendances et la configuration automatique nécessaire pour développer des applications Web. C'est la première dépendance que nous utiliserions.
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+Nous voulons utiliser JSP comme vue. Le conteneur de servlet intégré par défaut pour Spring Boot Starter Web est tomcat. Pour activer la prise en charge des JSP, nous devrions ajouter une dépendance à tomcat-embed-jasper.
+
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+    <scope>provided</scope>
+</dependency>
+
+### Configuration d'un résolveur de vues
+Nos fichiers jsp sont dans /WEB-INF/jsp <br>
+Nous devons configurer le résolveur de vues avec le préfixe et le suffixe.<br><br>
+
+#### dans application.properties
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+
